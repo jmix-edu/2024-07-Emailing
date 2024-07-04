@@ -1,4 +1,3 @@
-mmit# jmixpm-flow-base
 Base Jmix Flow project with project management data model
 
 This project contains:

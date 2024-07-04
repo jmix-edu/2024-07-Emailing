@@ -36,10 +36,17 @@
                     <action id="entityClear" type="entity_clear"/>
                 </actions>
             </entityPicker>
+            <fileStorageUploadField id="attachmentField"
+                                    property="attachment"
+                                    clearButtonVisible="true"
+                                    fileNameVisible="true"/>
+            <checkbox id="completedField" property="completed"/>
+            <dateTimePicker id="dueDateField" property="dueDate"/>
         </formLayout>
         <hbox id="detailActions">
             <button id="saveAndCloseBtn" action="saveAction"/>
             <button id="closeBtn" action="closeAction"/>
+            <button id="notifyAssigneeBtn" text="msg://notifyAssignee.text" icon="ENVELOPE"/>
         </hbox>
     </layout>
 </view>
