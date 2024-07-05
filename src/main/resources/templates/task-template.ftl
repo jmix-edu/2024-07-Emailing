@@ -1,4 +1,4 @@
-<html lang="en">
+<html>
 <body>
 <p>Hello ${task.assignee.username}!</p>
 <p>Task <b>${task.name}</b> has been assigned to you. Start date: ${(task.startDate)!}</p>
